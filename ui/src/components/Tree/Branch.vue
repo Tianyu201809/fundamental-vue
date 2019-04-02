@@ -13,16 +13,16 @@ export default Vue.extend({
     classes(): string[] {
       const childLevel =
         this.childLevel > 0
-          ? []
-          : [`fd-tree__group--sublevel-${this.childLevel}`];
+          ? ["fd-tree__group", `fd-tree__group--sublevel-${this.childLevel}`]
+          : [];
       const rowHidden = this.showChildren ? ["is-hidden"] : [];
-      return ["fd-tree__group", ...childLevel, ...rowHidden];
+      return [...childLevel, ...rowHidden];
     }
   },
   props: {
     ariaLabel: String as Prop<string | null>,
     childLevel: { type: Number, default: 0 },
-    hasChildren: { type: Boolean, default: false },
+    hasChildren: { type: Boolean, default: true },
     showChildren: { type: Boolean, default: false },
     children: { type: Array, default: () => [] } as PropOptions<Array<object>>
   }
