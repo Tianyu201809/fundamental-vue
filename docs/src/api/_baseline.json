@@ -26,7 +26,9 @@
           "name": "ariaLabel",
           "description": "ARIA label",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "Loading"
         }
       },
@@ -61,14 +63,18 @@
           "name": "active",
           "description": "whether modal is active",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "title": {
           "name": "title",
           "description": "title",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -88,43 +94,63 @@
           "name": "icon",
           "description": "icon name",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "url": {
           "name": "url",
           "description": "image url",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "size": {
           "name": "size",
           "description": "size",
           "required": false,
-          "acceptableValues": ["xxs", "xs", "s", "m", "l", "xl", "xxl"],
-          "types": ["String"],
+          "acceptableValues": [
+            "xxs",
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "m"
         },
         "circle": {
           "name": "circle",
           "description": "is displayed as circle",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "transparent": {
           "name": "transparent",
           "description": "is displayed without background",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "thumbnail": {
           "name": "thumbnail",
           "description": "is displayed with background image",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "backgroundColor": {
@@ -160,7 +186,9 @@
             "accent-14",
             "accent-15"
           ],
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -175,22 +203,32 @@
           "name": "url",
           "description": "image url",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "size": {
           "name": "size",
           "description": "size",
           "required": false,
-          "acceptableValues": ["s", "m", "l"],
-          "types": ["String"],
+          "acceptableValues": [
+            "s",
+            "m",
+            "l"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "m"
         },
         "circle": {
           "name": "circle",
           "description": "is displayed as circle",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -215,21 +253,27 @@
           "name": "title",
           "description": "Is used for two things: (1) title-attribute of the rendered anchor and (2) as fallback content when no default slot is provided.",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "selected": {
           "name": "selected",
           "description": "whether link is selected",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "disabled": {
           "name": "disabled",
           "description": "whether link is disabled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -249,22 +293,32 @@
           "name": "filled",
           "description": "whether the badge is filled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "pill": {
           "name": "pill",
           "description": "whether the badge is displayed as a pill",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "type": {
           "name": "type",
           "description": "badge type",
           "required": false,
-          "acceptableValues": ["warning", "error", "success"],
-          "types": ["String"],
+          "acceptableValues": [
+            "warning",
+            "error",
+            "success"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -284,8 +338,14 @@
           "name": "type",
           "description": "label type",
           "required": false,
-          "acceptableValues": ["warning", "error", "success"],
-          "types": ["String"],
+          "acceptableValues": [
+            "warning",
+            "error",
+            "success"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -305,23 +365,38 @@
           "name": "statusIcon",
           "description": "built-in status icon type",
           "required": false,
-          "acceptableValues": ["available", "away", "busy", "offline"],
-          "types": ["String"],
+          "acceptableValues": [
+            "available",
+            "away",
+            "busy",
+            "offline"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "type": {
           "name": "type",
           "description": "status type",
           "required": false,
-          "acceptableValues": ["warning", "error", "success"],
-          "types": ["String"],
+          "acceptableValues": [
+            "warning",
+            "error",
+            "success"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "icon": {
           "name": "icon",
           "description": "icon displayed in the status indicator",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -346,14 +421,18 @@
           "name": "dismissible",
           "description": "whether alert is dismissible",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": true
         },
         "visible": {
           "name": "visible",
           "description": "whether alert is visible",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": true
         },
         "type": {
@@ -367,7 +446,9 @@
             "information",
             "success"
           ],
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "default"
         }
       },
@@ -387,13 +468,17 @@
           "name": "title",
           "description": "page title",
           "required": true,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "description": {
           "name": "description",
           "description": "action bar description",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -408,14 +493,23 @@
           "name": "name",
           "description": "icon name",
           "required": true,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "size": {
           "name": "size",
           "description": "icon size",
           "required": false,
-          "acceptableValues": ["s", "m", "l", "xl"],
-          "types": ["String"],
+          "acceptableValues": [
+            "s",
+            "m",
+            "l",
+            "xl"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -435,15 +529,23 @@
           "name": "position",
           "description": "location of inline help relative to icon",
           "required": false,
-          "acceptableValues": ["left", "right", "center"],
-          "types": ["String"],
+          "acceptableValues": [
+            "left",
+            "right",
+            "center"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "right"
         },
         "inline": {
           "name": "inline",
           "description": "whether the inline help is displayed adjacent to the icon",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -468,34 +570,44 @@
           "name": "itemsPerPage",
           "description": "items per page",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": 10
         },
         "itemsTotal": {
           "name": "itemsTotal",
           "description": "total number of items",
           "required": true,
-          "types": ["Number"]
+          "types": [
+            "Number"
+          ]
         },
         "initialPage": {
           "name": "initialPage",
           "description": "initial page",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": 1
         },
         "displayTotal": {
           "name": "displayTotal",
           "description": "whether to dispaly total",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": true
         },
         "totalText": {
           "name": "totalText",
           "description": "total text",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         }
       },
@@ -510,21 +622,30 @@
           "name": "type",
           "description": "built-in counter type",
           "required": false,
-          "acceptableValues": ["info", "notification"],
-          "types": ["String"],
+          "acceptableValues": [
+            "info",
+            "notification"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "info"
         },
         "ariaLabel": {
           "name": "ariaLabel",
           "description": "Aria Label",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "value": {
           "name": "value",
           "description": "Counter Value",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": "Counter Value"
         }
       },
@@ -543,7 +664,9 @@
           "name": "headerVisible",
           "description": "whether header is shown",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": true
         },
         "maxDate": {
@@ -551,7 +674,9 @@
           "description": "maximum date",
           "required": false,
           "readableDefaultValue": "now + 10 years",
-          "types": ["Date"],
+          "types": [
+            "Date"
+          ],
           "defaultValue": "Thu Feb 01 2029 18:34:20 GMT+0100 (Central European Standard Time)"
         },
         "minDate": {
@@ -559,7 +684,9 @@
           "description": "minimum date",
           "required": false,
           "readableDefaultValue": "now - 10 years",
-          "types": ["Date"],
+          "types": [
+            "Date"
+          ],
           "defaultValue": "Sun Feb 01 2009 18:34:20 GMT+0100 (Central European Standard Time)"
         },
         "disabledDate": {
@@ -567,7 +694,9 @@
           "description": "Called with a date to be displayed by the calendar. Return false to disable the date.",
           "required": false,
           "readableDefaultValue": "() => false",
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return false;\n  }"
         },
         "blockedDate": {
@@ -575,7 +704,9 @@
           "description": "Called with a date to be displayed by the calendar. Return false to block the date.",
           "required": false,
           "readableDefaultValue": "() => false",
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return false;\n  }"
         },
         "hasPrevious": {
@@ -583,7 +714,9 @@
           "description": "Called with a date range object ({ min: Date, max: Date }). Return false to disable the previous button in the header.",
           "required": false,
           "readableDefaultValue": "() => true",
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return true;\n  }"
         },
         "hasNext": {
@@ -591,7 +724,9 @@
           "description": "Called with a date range object ({ min: Date, max: Date }). Return false to disable the next button in the header.",
           "required": false,
           "readableDefaultValue": "() => true",
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return true;\n  }"
         }
       },
@@ -606,26 +741,34 @@
           "name": "month",
           "description": "month",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "year": {
           "name": "year",
           "description": "year",
           "required": false,
-          "types": ["Number"]
+          "types": [
+            "Number"
+          ]
         },
         "hasPrevious": {
           "name": "hasPrevious",
           "description": "hasPrevious",
           "required": false,
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return true;\n  }"
         },
         "hasNext": {
           "name": "hasNext",
           "description": "hasNext",
           "required": false,
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return true;\n  }"
         }
       },
@@ -640,26 +783,34 @@
           "name": "title",
           "description": "title",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "icon": {
           "name": "icon",
           "description": "icon",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "disabled": {
           "name": "disabled",
           "description": "disabled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "type": {
           "name": "type",
           "description": "type",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -674,62 +825,80 @@
           "name": "dayNames",
           "description": "dayNames",
           "required": false,
-          "types": ["Array"]
+          "types": [
+            "Array"
+          ]
         },
         "month": {
           "name": "month",
           "description": "month",
           "required": false,
-          "types": ["Array"],
+          "types": [
+            "Array"
+          ],
           "defaultValue": []
         },
         "isPresent": {
           "name": "isPresent",
           "description": "isPresent",
           "required": false,
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return false;\n  }"
         },
         "selectionEnd": {
           "name": "selectionEnd",
           "description": "selectionEnd",
           "required": false,
-          "types": ["Date"],
+          "types": [
+            "Date"
+          ],
           "defaultValue": null
         },
         "selectionStart": {
           "name": "selectionStart",
           "description": "selectionStart",
           "required": false,
-          "types": ["Date"],
+          "types": [
+            "Date"
+          ],
           "defaultValue": null
         },
         "displayedMonth": {
           "name": "displayedMonth",
           "description": "displayedMonth",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": 1
         },
         "disabledDate": {
           "name": "disabledDate",
           "description": "disabledDate",
           "required": false,
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return false;\n  }"
         },
         "blockedDate": {
           "name": "blockedDate",
           "description": "blockedDate",
           "required": false,
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return false;\n  }"
         },
         "selectionContainsDate": {
           "name": "selectionContainsDate",
           "description": "selectionContainsDate",
           "required": false,
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return false;\n  }"
         }
       },
@@ -744,33 +913,43 @@
           "name": "maxDate",
           "description": "maxDate",
           "required": false,
-          "types": ["Date"]
+          "types": [
+            "Date"
+          ]
         },
         "minDate": {
           "name": "minDate",
           "description": "minDate",
           "required": false,
-          "types": ["Date"]
+          "types": [
+            "Date"
+          ]
         },
         "years": {
           "name": "years",
           "description": "years",
           "required": false,
-          "types": ["Array"],
+          "types": [
+            "Array"
+          ],
           "defaultValue": []
         },
         "presentYear": {
           "name": "presentYear",
           "description": "presentYear",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": 0
         },
         "selectionContainsYear": {
           "name": "selectionContainsYear",
           "description": "selectionContainsYear",
           "required": false,
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return false;\n  }"
         }
       },
@@ -785,20 +964,26 @@
           "name": "monthNames",
           "description": "monthNames",
           "required": false,
-          "types": ["Array"]
+          "types": [
+            "Array"
+          ]
         },
         "presentMonth": {
           "name": "presentMonth",
           "description": "presentMonth",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": 0
         },
         "selectionContainsMonth": {
           "name": "selectionContainsMonth",
           "description": "selectionContainsMonth",
           "required": false,
-          "types": ["Function"],
+          "types": [
+            "Function"
+          ],
           "defaultValue": "function _default() {\n    return false;\n  }"
         }
       },
@@ -818,7 +1003,9 @@
           "name": "span",
           "description": "span",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": null
         }
       },
@@ -838,14 +1025,18 @@
           "name": "flex",
           "description": "flex",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "fluid": {
           "name": "fluid",
           "description": "fluid",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -865,7 +1056,9 @@
           "name": "title",
           "description": "title",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -885,7 +1078,9 @@
           "name": "headerClass",
           "description": "header class",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -917,7 +1112,9 @@
           "name": "fixed",
           "description": "fixed",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -937,7 +1134,9 @@
           "name": "fixed",
           "description": "fixed",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -969,8 +1168,14 @@
           "name": "position",
           "description": "position in the shell bar",
           "required": false,
-          "acceptableValues": ["start", "middle", "end"],
-          "types": ["String"]
+          "acceptableValues": [
+            "start",
+            "middle",
+            "end"
+          ],
+          "types": [
+            "String"
+          ]
         }
       },
       "componentName": "FdShellBarGroup"
@@ -989,20 +1194,27 @@
           "name": "src",
           "description": "image source",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "srcset": {
           "name": "srcset",
           "description": "image source set",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "to": {
           "name": "to",
           "description": "link destination",
           "required": false,
-          "types": ["String", "Object"],
+          "types": [
+            "String",
+            "Object"
+          ],
           "defaultValue": "/"
         }
       },
@@ -1082,14 +1294,18 @@
           "name": "showAlways",
           "description": "whether the action is always shown",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": true
         },
         "collapsible": {
           "name": "collapsible",
           "description": "whether the action is collapsible",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1133,28 +1349,38 @@
           "name": "src",
           "description": "image source",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         },
         "title": {
           "name": "title",
           "description": "title",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         },
         "to": {
           "name": "to",
           "description": "router link destination",
           "required": false,
-          "types": ["String", "Object"],
+          "types": [
+            "String",
+            "Object"
+          ],
           "defaultValue": null
         },
         "href": {
           "name": "href",
           "description": "external link destination",
           "required": false,
-          "types": ["String", "Object"],
+          "types": [
+            "String",
+            "Object"
+          ],
           "defaultValue": "#"
         }
       },
@@ -1174,7 +1400,9 @@
           "name": "src",
           "description": "image source",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -1206,7 +1434,9 @@
           "name": "headerClass",
           "description": "header CSS class",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -1226,7 +1456,9 @@
           "name": "orientation",
           "description": "orientation",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "horizontal"
         }
       },
@@ -1271,21 +1503,27 @@
           "description": "header configuration",
           "required": false,
           "readableDefaultValue": "[]",
-          "types": ["Array"],
+          "types": [
+            "Array"
+          ],
           "defaultValue": []
         },
         "firstColumnFixed": {
           "name": "firstColumnFixed",
           "description": "whether the column is fixed (experimental)",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "fixedWrapperStyle": {
           "name": "fixedWrapperStyle",
           "description": "CSS style for the fixed wrapper (experimental)",
           "required": false,
-          "types": ["Object"],
+          "types": [
+            "Object"
+          ],
           "defaultValue": {
             "width": "700px"
           }
@@ -1294,14 +1532,18 @@
           "name": "borderless",
           "description": "whether no borders are drawn",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "striped": {
           "name": "striped",
           "description": "whether table has alternating row colors",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "items": {
@@ -1309,7 +1551,9 @@
           "description": "displayed items",
           "required": false,
           "readableDefaultValue": "object[]",
-          "types": ["Array"],
+          "types": [
+            "Array"
+          ],
           "defaultValue": []
         },
         "selectedIds": {
@@ -1317,15 +1561,23 @@
           "description": "selected ids",
           "required": false,
           "readableDefaultValue": "string[]",
-          "types": ["Array"],
+          "types": [
+            "Array"
+          ],
           "defaultValue": []
         },
         "selectionMode": {
           "name": "selectionMode",
           "description": "selection mode",
           "required": false,
-          "acceptableValues": ["single", "multiple", "none"],
-          "types": ["String"],
+          "acceptableValues": [
+            "single",
+            "multiple",
+            "none"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "none"
         }
       },
@@ -1352,7 +1604,9 @@
           "name": "fixed",
           "description": "whether the column is fixed",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": null
         }
       },
@@ -1367,14 +1621,18 @@
           "name": "headers",
           "description": "headers",
           "required": false,
-          "types": ["Array"],
+          "types": [
+            "Array"
+          ],
           "defaultValue": []
         },
         "sortDescriptor": {
           "name": "sortDescriptor",
           "description": "sortDescriptor",
           "required": false,
-          "types": ["Object"],
+          "types": [
+            "Object"
+          ],
           "defaultValue": null
         }
       },
@@ -1389,43 +1647,58 @@
           "name": "label",
           "description": "header label",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "alignment": {
           "name": "alignment",
           "description": "text alignment",
           "required": false,
-          "acceptableValues": ["default", "center"],
-          "types": ["String"],
+          "acceptableValues": [
+            "default",
+            "center"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "default"
         },
         "sortOrder": {
           "name": "sortOrder",
           "description": "sort order",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "sortable": {
           "name": "sortable",
           "description": "whether the column is sortable",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "sortBy": {
           "name": "sortBy",
           "description": "prop used when sorting",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "columnFixed": {
           "name": "columnFixed",
           "description": "whether the column is fixed",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": null
         }
       },
@@ -1445,14 +1718,18 @@
           "name": "itemId",
           "description": "item id",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "isSelected": {
           "name": "isSelected",
           "description": "whether the row is selected",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1472,14 +1749,20 @@
           "name": "selected",
           "description": "whether row is selected",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "value": {
           "name": "value",
           "description": "value",
           "required": true,
-          "types": ["String", "Number", "Boolean"]
+          "types": [
+            "String",
+            "Number",
+            "Boolean"
+          ]
         }
       },
       "componentName": "FdRowSelectionIndicator"
@@ -1498,35 +1781,45 @@
           "name": "value",
           "description": "initial value",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "placeholder": {
           "name": "placeholder",
           "description": "placeholder text (displayed when nothing is selected)",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         },
         "ariaLabel": {
           "name": "ariaLabel",
           "description": "ARIA Label",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "Combobox"
         },
         "popoverVisible": {
           "name": "popoverVisible",
           "description": "whether popover is visible",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "compact": {
           "name": "compact",
           "description": "whether combobox is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1550,28 +1843,36 @@
           "name": "value",
           "description": "Value set in the Search Input",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         },
         "placeholder": {
           "name": "placeholder",
           "description": "Placeholder in case the SearchInput is empty",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         },
         "ariaLabel": {
           "name": "ariaLabel",
           "description": "Aria Label",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "Search Input"
         },
         "compact": {
           "name": "compact",
           "description": "whether search input is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1591,36 +1892,52 @@
           "name": "title",
           "description": "Panel Title",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "description": {
           "name": "description",
           "description": "Panel Description (displayed below the title)",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "span": {
           "name": "span",
           "description": "Panel colspan when used inside a Panel Grid",
           "required": false,
-          "acceptableValues": [2, 3, 4, 5, 6],
-          "types": ["Number"],
+          "acceptableValues": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "types": [
+            "Number"
+          ],
           "defaultValue": null
         },
         "condensed": {
           "name": "condensed",
           "description": "whether the panel body is condensed (has no padding; not officially part of Fundamentals)",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "condensedFooter": {
           "name": "condensedFooter",
           "description": "whether the panel footer is condensed (has no padding)",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1640,15 +1957,25 @@
           "name": "col",
           "description": "number of columns",
           "required": false,
-          "acceptableValues": [2, 3, 4, 5, 6],
-          "types": ["Number"],
+          "acceptableValues": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "types": [
+            "Number"
+          ],
           "defaultValue": null
         },
         "nogap": {
           "name": "nogap",
           "description": "whether there is a gap between the individual panels",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1679,7 +2006,9 @@
           "name": "canHaveAddon",
           "description": "whether menu item can have an addon",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1711,14 +2040,18 @@
           "name": "header",
           "description": "text displayed in the menu list (group) header",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "separated": {
           "name": "separated",
           "description": "whether a separator is placed between menu items",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1743,7 +2076,10 @@
           "name": "value",
           "description": "value (can be used to associate a context with the item)",
           "required": false,
-          "types": ["String", "Number"],
+          "types": [
+            "String",
+            "Number"
+          ],
           "defaultValue": null
         }
       },
@@ -1775,35 +2111,45 @@
           "name": "ariaLabel",
           "description": "ARIA label",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "Popover"
         },
         "title": {
           "name": "title",
           "description": "title displayed when no custom trigger element is used",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "Show"
         },
         "placement": {
           "name": "placement",
           "description": "popover placement",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "left"
         },
         "popoverVisible": {
           "name": "popoverVisible",
           "description": "whether popover is visible",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "noArrow": {
           "name": "noArrow",
           "description": "whether popover has an arrow",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -1829,44 +2175,71 @@
           "description": "button value used when in a button group",
           "required": false,
           "defaultValue": null,
-          "types": ["String", "Number", "Boolean"]
+          "types": [
+            "String",
+            "Number",
+            "Boolean"
+          ]
         },
         "styling": {
           "name": "styling",
           "description": "button styling",
           "required": false,
-          "acceptableValues": ["emphasized", "light", "regular"],
-          "types": ["String"],
+          "acceptableValues": [
+            "emphasized",
+            "light",
+            "regular"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "regular"
         },
         "type": {
           "name": "type",
           "description": "button type",
           "required": false,
-          "acceptableValues": ["standard", "positive", "medium", "negative"],
-          "types": ["String"],
+          "acceptableValues": [
+            "standard",
+            "positive",
+            "medium",
+            "negative"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "primary"
         },
         "icon": {
           "name": "icon",
           "description": "icon displayed in the button",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "compact": {
           "name": "compact",
           "description": "whether button is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "state": {
           "name": "state",
           "description": "button state",
           "required": false,
-          "acceptableValues": ["normal", "selected", "disabled"],
-          "types": ["String"],
+          "acceptableValues": [
+            "normal",
+            "selected",
+            "disabled"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "normal"
         }
       },
@@ -1897,14 +2270,18 @@
           "name": "compact",
           "description": "whether button group is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "value": {
           "name": "value",
           "description": "index of active button",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": null
         }
       },
@@ -1935,7 +2312,9 @@
           "name": "value",
           "description": "active tab item name",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -1955,21 +2334,27 @@
           "name": "label",
           "description": "tab item label",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "name": {
           "name": "name",
           "description": "name, used to determine whether item is active",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "disabled": {
           "name": "disabled",
           "description": "whether item is disabled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -2010,15 +2395,22 @@
           "name": "selectedId",
           "description": "id of the selected item. Supports the sync-modifier.",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "mode": {
           "name": "mode",
           "description": "mode",
           "required": false,
-          "acceptableValues": ["router", "manual"],
-          "types": ["String"],
+          "acceptableValues": [
+            "router",
+            "manual"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "manual"
         }
       },
@@ -2039,7 +2431,9 @@
           "description": "items",
           "required": false,
           "readableDefaultValue": "Array<Item>",
-          "types": ["Array"],
+          "types": [
+            "Array"
+          ],
           "defaultValue": []
         }
       },
@@ -2068,7 +2462,10 @@
           "name": "to",
           "description": "to",
           "required": false,
-          "types": ["Object", "String"],
+          "types": [
+            "Object",
+            "String"
+          ],
           "defaultValue": "#"
         }
       },
@@ -2083,7 +2480,10 @@
           "name": "to",
           "description": "to",
           "required": false,
-          "types": ["Object", "String"],
+          "types": [
+            "Object",
+            "String"
+          ],
           "defaultValue": "#"
         }
       },
@@ -2098,7 +2498,9 @@
           "name": "hidden",
           "description": "hidden",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": null
         }
       },
@@ -2118,14 +2520,18 @@
           "name": "inline",
           "description": "inline",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": null
         },
         "label": {
           "name": "label",
           "description": "label",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -2145,7 +2551,9 @@
           "name": "required",
           "description": "whether a value is required (adds a *)",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -2165,8 +2573,14 @@
           "name": "type",
           "description": "type",
           "required": false,
-          "acceptableValues": ["error", "warning", "help"],
-          "types": ["String"],
+          "acceptableValues": [
+            "error",
+            "warning",
+            "help"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         }
       },
@@ -2198,7 +2612,9 @@
           "name": "inline",
           "description": "inline",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -2249,65 +2665,92 @@
           "name": "placeholder",
           "description": "placeholder text",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         },
         "state": {
           "name": "state",
           "description": "current state",
           "required": false,
-          "acceptableValues": ["valid", "invalid", "warning"],
-          "types": ["String"],
+          "acceptableValues": [
+            "valid",
+            "invalid",
+            "warning"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "required": {
           "name": "required",
           "description": "whether a value is required (adds a *)",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "type": {
           "name": "type",
           "description": "button type",
           "required": false,
-          "acceptableValues": ["text", "password", "search"],
-          "types": ["String"],
+          "acceptableValues": [
+            "text",
+            "password",
+            "search"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "text"
         },
         "disabled": {
           "name": "disabled",
           "description": "whether the control is disabled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "readonly": {
           "name": "readonly",
           "description": "whether the control is readonly",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "value": {
           "name": "value",
           "description": "current value",
           "required": false,
-          "types": ["String", "Number"],
+          "types": [
+            "String",
+            "Number"
+          ],
           "defaultValue": ""
         },
         "compact": {
           "name": "compact",
           "description": "whether input is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "maxlength": {
           "name": "maxlength",
           "description": "upper limit on the number of characters that can be entered in the input field.",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         }
       },
       "componentName": "FdInput"
@@ -2326,28 +2769,36 @@
           "name": "before",
           "description": "text/number before the input",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "after": {
           "name": "after",
           "description": "text/number after the input",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "afterClass": {
           "name": "afterClass",
           "description": "afterClass",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "compact": {
           "name": "compact",
           "description": "whether input group is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -2367,36 +2818,53 @@
           "name": "state",
           "description": "select state",
           "required": false,
-          "acceptableValues": ["default", "valid", "invalid", "warning"],
-          "types": ["String"],
+          "acceptableValues": [
+            "default",
+            "valid",
+            "invalid",
+            "warning"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "default"
         },
         "required": {
           "name": "required",
           "description": "whether input is required",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "disabled": {
           "name": "disabled",
           "description": "whether select is disabled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "readonly": {
           "name": "readonly",
           "description": "whether select is readonly",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "value": {
           "name": "value",
           "description": "current value",
           "required": false,
-          "types": ["String", "Number", "Object"]
+          "types": [
+            "String",
+            "Number",
+            "Object"
+          ]
         }
       },
       "componentName": "FdSelect"
@@ -2422,37 +2890,55 @@
           "name": "placeholder",
           "description": "placeholder displayed when no value is set",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         },
         "state": {
           "name": "state",
           "description": "state of the text area",
           "required": false,
-          "acceptableValues": ["default", "valid", "invalid", "warning"],
-          "types": ["String"],
+          "acceptableValues": [
+            "default",
+            "valid",
+            "invalid",
+            "warning"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "default"
         },
         "required": {
           "name": "required",
           "description": "whether input is required",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "value": {
           "name": "value",
           "description": "current value",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         },
         "type": {
           "name": "type",
           "description": "native element type",
           "required": false,
-          "acceptableValues": ["text", "password"],
-          "types": ["String"],
+          "acceptableValues": [
+            "text",
+            "password"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": "text"
         }
       },
@@ -2467,22 +2953,32 @@
           "name": "size",
           "description": "size class",
           "required": false,
-          "acceptableValues": ["xs", "s", "l"],
-          "types": ["String"],
+          "acceptableValues": [
+            "xs",
+            "s",
+            "l"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "disabled": {
           "name": "disabled",
           "description": "whether toggle is disabled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "on": {
           "name": "on",
           "description": "whether toggle is checked",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -2502,64 +2998,95 @@
           "name": "trueValue",
           "description": "Payload of the change-event when the user checks the checkbox",
           "required": false,
-          "types": ["String", "Number", "Boolean"],
+          "types": [
+            "String",
+            "Number",
+            "Boolean"
+          ],
           "defaultValue": true
         },
         "falseValue": {
           "name": "falseValue",
           "description": "Payload of the change-event when the user unchecks the checkbox",
           "required": false,
-          "types": ["String", "Number", "Boolean"],
+          "types": [
+            "String",
+            "Number",
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "value": {
           "name": "value",
           "description": "value used when checked is true",
           "required": false,
-          "types": ["String", "Number", "Boolean"],
+          "types": [
+            "String",
+            "Number",
+            "Boolean"
+          ],
           "defaultValue": true
         },
         "compact": {
           "name": "compact",
           "description": "whether input is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "disabled": {
           "name": "disabled",
           "description": "whether the control is disabled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "readonly": {
           "name": "readonly",
           "description": "whether the control is readonly",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "state": {
           "name": "state",
           "description": "current state",
           "required": false,
-          "acceptableValues": ["valid", "invalid", "warning"],
-          "types": ["String"],
+          "acceptableValues": [
+            "valid",
+            "invalid",
+            "warning"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "required": {
           "name": "required",
           "description": "whether a value is required (adds a *)",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "modelValue": {
           "name": "modelValue",
           "description": "modelValue",
           "required": false,
-          "types": ["Array", "String", "Boolean", "Number"],
+          "types": [
+            "Array",
+            "String",
+            "Boolean",
+            "Number"
+          ],
           "defaultValue": false
         }
       },
@@ -2579,63 +3106,91 @@
           "name": "trueValue",
           "description": "Payload of the change-event when the user checks the checkbox",
           "required": false,
-          "types": ["String", "Number", "Boolean"],
+          "types": [
+            "String",
+            "Number",
+            "Boolean"
+          ],
           "defaultValue": true
         },
         "falseValue": {
           "name": "falseValue",
           "description": "Payload of the change-event when the user unchecks the checkbox",
           "required": false,
-          "types": ["String", "Number", "Boolean"],
+          "types": [
+            "String",
+            "Number",
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "value": {
           "name": "value",
           "description": "value used when checked is true",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "compact": {
           "name": "compact",
           "description": "whether the control is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "disabled": {
           "name": "disabled",
           "description": "whether the control is disabled",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "readonly": {
           "name": "readonly",
           "description": "whether the control is readonly",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "state": {
           "name": "state",
           "description": "current state",
           "required": false,
-          "acceptableValues": ["valid", "invalid", "warning"],
-          "types": ["String"],
+          "acceptableValues": [
+            "valid",
+            "invalid",
+            "warning"
+          ],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "required": {
           "name": "required",
           "description": "whether a value is required (adds a *)",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "modelValue": {
           "name": "modelValue",
           "description": "modelValue",
           "required": false,
-          "types": ["String", "Boolean", "Number"],
+          "types": [
+            "String",
+            "Boolean",
+            "Number"
+          ],
           "defaultValue": ""
         }
       },
@@ -2679,7 +3234,9 @@
           "name": "to",
           "description": "target route (passed to $router.to(…))",
           "required": false,
-          "types": ["Object"],
+          "types": [
+            "Object"
+          ],
           "defaultValue": null
         }
       },
@@ -2723,28 +3280,36 @@
           "name": "title",
           "description": "title",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "description": {
           "name": "description",
           "description": "description",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "rowSpan": {
           "name": "rowSpan",
           "description": "row span",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": null
         },
         "colSpan": {
           "name": "colSpan",
           "description": "column span",
           "required": false,
-          "types": ["Number"],
+          "types": [
+            "Number"
+          ],
           "defaultValue": null
         },
         "backgroundColor": {
@@ -2780,21 +3345,27 @@
             "accent-14",
             "accent-15"
           ],
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "isButton": {
           "name": "isButton",
           "description": "render tile as a button",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "disabled": {
           "name": "disabled",
           "description": "disable tile",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -2814,28 +3385,36 @@
           "name": "url",
           "description": "image url",
           "required": true,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "title": {
           "name": "title",
           "description": "title",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": null
         },
         "isButton": {
           "name": "isButton",
           "description": "render product tile as a button",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "disabled": {
           "name": "disabled",
           "description": "disable product tile",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -2855,8 +3434,16 @@
           "name": "col",
           "description": "number of columns",
           "required": false,
-          "acceptableValues": [2, 3, 4, 5, 6],
-          "types": ["Number"],
+          "acceptableValues": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "types": [
+            "Number"
+          ],
           "defaultValue": null
         }
       },
@@ -2883,27 +3470,36 @@
             "second",
             "meridian"
           ],
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "value": {
           "name": "value",
           "description": "Value in the Time input field",
           "required": false,
-          "types": ["String", "Number"],
+          "types": [
+            "String",
+            "Number"
+          ],
           "defaultValue": ""
         },
         "ariaLabel": {
           "name": "ariaLabel",
           "description": "Aria Label",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "Time Item"
         },
         "placeholder": {
           "name": "placeholder",
           "description": "Placeholder for the Time component",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": ""
         }
       },
@@ -2923,20 +3519,26 @@
           "name": "ariaLabel",
           "description": "Aria Label for TimeItem",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "Time Item"
         },
         "value": {
           "name": "value",
           "description": "Value of Time to be set in the time Item. This has to be in the format \"hh:mm:ss\" / \"hh:mm\" for the 24 hour clock or \"hh:mm:ss a\" / \"hh:mm a\" for the 12 hour clock",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "showMeridian": {
           "name": "showMeridian",
           "description": "If Meridian should be shown",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
@@ -2960,65 +3562,221 @@
           "name": "id",
           "description": "ID of the TimePicker",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "placeholder": {
           "name": "placeholder",
           "description": "Placeholder of the TimePicker",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "value": {
           "name": "value",
           "description": "Value of Time to be set in the time Item. This has to be in the format \"hh:mm:ss\" / \"hh:mm\" for the 24 hour clock or \"hh:mm:ss a\" / \"hh:mm a\" for the 12 hour clock",
           "required": false,
-          "types": ["String"]
+          "types": [
+            "String"
+          ]
         },
         "ariaLabel": {
           "name": "ariaLabel",
           "description": "aria-label for the TimePicker",
           "required": false,
-          "types": ["String"],
+          "types": [
+            "String"
+          ],
           "defaultValue": "Time Picker"
         },
         "compact": {
           "name": "compact",
           "description": "whether TimePicker is compact",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         },
         "showMeridian": {
           "name": "showMeridian",
           "description": "If Meridian should be shown",
           "required": false,
-          "types": ["Boolean"],
+          "types": [
+            "Boolean"
+          ],
           "defaultValue": false
         }
       },
       "componentName": "FdTimePicker"
     },
-    "FdTree": {
-      "slots": {
-        "": {
-          "name": "",
-          "description": "Tree Content"
+    "FdTreeItem": {
+      "props": {
+        "ariaLabel": {
+          "name": "ariaLabel",
+          "description": "aria label",
+          "required": false,
+          "types": [
+            "String"
+          ]
+        },
+        "hierarchyButton": {
+          "name": "hierarchyButton",
+          "description": "if the hierarchy button needs to be shown",
+          "required": false,
+          "types": [
+            "Boolean"
+          ],
+          "defaultValue": false
+        },
+        "firstItem": {
+          "name": "firstItem",
+          "description": "if the item is the first item to be used in context of the header/row",
+          "required": false,
+          "types": [
+            "Boolean"
+          ],
+          "defaultValue": false
         }
       },
-      "events": {},
-      "mixins": [],
+      "componentName": "FdTreeItem"
+    },
+    "FdTreeRow": {
       "props": {
-        "headers": {
-          "name": "headers",
-          "description": "headers of the tree",
-          "required": true,
-          "types": ["Array"]
+        "ariaLabel": {
+          "name": "ariaLabel",
+          "description": "aria label",
+          "required": false,
+          "types": [
+            "String"
+          ]
         },
-        "treeData": {
-          "name": "treeData",
-          "description": "data of the tree",
+        "items": {
+          "name": "items",
+          "description": "items to be shown in the tree row",
+          "required": false,
+          "default": [],
+          "types": [
+            "Array"
+          ]
+        }
+      },
+      "componentName": "FdTreeRow"
+    },
+    "FdTreeBranch": {
+      "props": {
+        "ariaLabel": {
+          "name": "ariaLabel",
+          "description": "aria label",
+          "required": false,
+          "types": [
+            "String"
+          ]
+        },
+        "childLevel": {
+          "name": "childLevel",
+          "description": "child level. Starts from 0",
+          "required": false,
+          "default": 0,
+          "types": [
+            "Number"
+          ]
+        },
+        "hasChildren": {
+          "name": "hasChildren",
+          "description": "If the tree branch has children",
+          "required": false,
+          "default": false,
+          "types": [
+            "Boolean"
+          ]
+        },
+        "showChildren": {
+          "name": "showChildren",
+          "description": "expand the hierarchy and show the children branches/rows",
+          "required": false,
+          "default": false,
+          "types": [
+            "Boolean"
+          ]
+        },
+        "children": {
+          "name": "children",
+          "description": "children array of the tree branch",
+          "required": false,
+          "default": [],
+          "types": [
+            "Array"
+          ]
+        }
+      },
+      "componentName": "FdTreeBranch"
+    },
+    "FdTreeHeader": {
+      "props": {
+        "ariaLabel": {
+          "name": "ariaLabel",
+          "description": "aria label",
+          "required": false,
+          "types": [
+            "String"
+          ]
+        },
+        "items": {
+          "name": "items",
+          "description": "Tree Column Headers",
           "required": true,
-          "types": ["Array"]
+          "default": [],
+          "types": [
+            "Array"
+          ]
+        }
+      },
+      "componentName": "FdTreeHeader"
+    },
+    "FdTreeData": {
+      "props": {
+        "branches": {
+          "name": "branches",
+          "description": "Tree Branches",
+          "required": true,
+          "default": [],
+          "types": [
+            "Array"
+          ]
+        }
+      },
+      "componentName": "FdTreeData"
+    },
+    "FdTree": {
+      "props": {
+        "ariaLabel": {
+          "name": "ariaLabel",
+          "description": "aria label",
+          "required": false,
+          "types": [
+            "String"
+          ]
+        },
+        "header": {
+          "name": "header",
+          "description": "Tree Column Headers",
+          "required": true,
+          "default": [],
+          "types": [
+            "Array"
+          ]
+        },
+        "data": {
+          "name": "data",
+          "description": "Tree Data",
+          "required": true,
+          "default": [],
+          "types": [
+            "Array"
+          ]
         }
       },
       "componentName": "FdTree"

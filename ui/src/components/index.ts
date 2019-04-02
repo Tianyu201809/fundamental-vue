@@ -35,6 +35,7 @@ import * as Tile from "./Tile";
 import * as TileGrid from "./TileGrid";
 import * as TimePicker from "./TimePicker";
 import * as Token from "./Token";
+import * as Tree from "./Tree";
 
 const plugin: PluginObject<PluginOptions> = {
   install(vue) {
@@ -72,6 +73,7 @@ const plugin: PluginObject<PluginOptions> = {
     vue.use(TileGrid.default);
     vue.use(TimePicker.default);
     vue.use(Token.default);
+    vue.use(Tree.default);
   }
 };
 export default plugin;
