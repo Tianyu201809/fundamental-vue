@@ -2,11 +2,11 @@
   <div class="fd-tree fd-tree--header">
     <div class="fd-tree__row fd-tree__row--header">
       <Item
-        v-for="item in headerItems"
-        :firstItem="item.index === 0"
-        :key="item.index"
-        :hierarchyButton="item.index === 0"
-        >{{ item.text }}</Item
+        v-for="(headerText,i) in this.items"
+        :firstItem="i === 0"
+        :key="i"
+        :hierarchyButton="i === 0"
+        >{{ headerText }}</Item
       >
     </div>
     <slot></slot>
@@ -20,13 +20,6 @@ import Item from "./Item.vue";
 export default Vue.extend({
   name: "FdTreeHeader",
   components: { Item },
-  computed: {
-    headerItems(): Array<object> {
-      return this.items.map((text: string, index: number) => {
-        return { text, index };
-      });
-    }
-  },
   props: {
     ariaLabel: String as Prop<string | null>,
     items: { type: Array, default: () => [] } as PropOptions<Array<string>>

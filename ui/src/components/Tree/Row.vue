@@ -1,8 +1,8 @@
 <template>
-<li :aria-label="this.ariaLabel" class="fd-tree__item">
-  <div  class="fd-tree__row">
-    <slot></slot>
-  </div>
+  <li :aria-label="this.ariaLabel" class="fd-tree__item">
+    <div class="fd-tree__row">
+      <slot></slot>
+    </div>
   </li>
 </template>
 

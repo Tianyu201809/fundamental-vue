@@ -1,21 +1,18 @@
-<title>Tree with TreeHeader and TreeRow</title>
+<title>Tree</title>
 <template>
   <div>
-    <FdTreeHeader :items="headerItems"></FdTreeHeader>
-    <FdTreeData>
-      <div>
-        <FdTreeRow v-for="(row, index) in rows" :key="index">
-          <FdTreeItem
-            :firstItem="true"
-            :hierarchyButton="row.rows && row.rows.length > 0"
-            >{{ row.rowItems.col1 }}</FdTreeItem
-          >
-          <FdTreeItem>{{ row.rowItems.col2 }}</FdTreeItem>
-          <FdTreeItem>{{ row.rowItems.col3 }}</FdTreeItem>
-          <FdTreeItem>{{ row.rowItems.col4 }}</FdTreeItem>
-        </FdTreeRow>
-      </div>
-    </FdTreeData>
+    <FdTree :header="headerItems" :data="rows">
+      <template slot-scope="{ treeRow }">
+        <FdTreeItem
+          :firstItem="true"
+          :hierarchyButton="treeRow.rows && treeRow.rows.length > 0"
+          >{{ treeRow.rowItems.col1 }}</FdTreeItem
+        >
+        <FdTreeItem>{{ treeRow.rowItems.col2 }}</FdTreeItem>
+        <FdTreeItem>{{ treeRow.rowItems.col3 }}</FdTreeItem>
+        <FdTreeItem>{{ treeRow.rowItems.col4 }}</FdTreeItem>
+      </template>
+    </FdTree>
   </div>
 </template>
 
