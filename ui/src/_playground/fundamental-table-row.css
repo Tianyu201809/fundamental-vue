@@ -1,0 +1,16 @@
+.fd-virtualized-table .fd-table__row {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eeeeef;
+  border-color: var(--fd-table-border-color);
+  border-left: none;
+  border-right: none;
+
+  -webkit-transition: background-color 0.125s ease-in;
+  transition: background-color 0.125s ease-in;
+  cursor: pointer;
+}
+.fd-table--striped .fd-table__row {
+  background-color: #fafafa;
+  background-color: var(--fd-color-background-hover);
+}

@@ -42,6 +42,7 @@
     "fiori-fundamentals": "^1.4.3"
   },
   "dependencies": {
-    "focus-trap": "^4.0.2"
+    "focus-trap": "^4.0.2",
+    "vue-virtual-scroller": "^1.0.0-rc.2"
   }
 }

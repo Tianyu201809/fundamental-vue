@@ -6,9 +6,11 @@ import TableRow from "./Components/TableRow.vue";
 import RowSelectionIndicator from "./Components/RowSelectionIndicator.vue";
 
 import Table from "./Table.vue";
+import VirtualizedTable from "./VirtualizedTable.vue";
 import { pluginify } from "@/util";
 export default pluginify(
   Table,
+  VirtualizedTable,
   TableBody,
   TableCell,
   TableHeader,
@@ -18,6 +20,7 @@ export default pluginify(
 );
 export {
   Table,
+  VirtualizedTable,
   TableBody,
   TableCell,
   TableHeader,

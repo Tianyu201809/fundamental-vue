@@ -36,6 +36,11 @@ import * as TileGrid from "./TileGrid";
 import * as TimePicker from "./TimePicker";
 import * as Token from "./Token";
 
+//@ts-ignore
+import VueVirtualScroller from "vue-virtual-scroller";
+import "vue-virtual-scroller/dist/vue-virtual-scroller.css";
+import "../_playground/table.css";
+
 const plugin: PluginObject<PluginOptions> = {
   install(vue) {
     vue.use(ActionBar.default);
@@ -72,6 +77,9 @@ const plugin: PluginObject<PluginOptions> = {
     vue.use(TileGrid.default);
     vue.use(TimePicker.default);
     vue.use(Token.default);
+
+    // todo: is here the right place for this?
+    vue.use(VueVirtualScroller);
   }
 };
 export default plugin;

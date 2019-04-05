@@ -1,0 +1,8 @@
+@import "./fundamental-table.css";
+
+.fd-virtualized-table .fd-table__row {
+  display: table-row;
+}
+.fd-virtualized-table .fd-table__col {
+  display: table-cell;
+}

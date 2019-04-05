@@ -22,6 +22,11 @@ export default Vue.extend({
       // @ts-ignore
       const table = this.table;
       return (table || false) && table.firstColumnFixed;
+    },
+    classes(): string[] {
+      // @ts-ignore
+      const table = this.table;
+      return [table.isVirtualized ? "fd-table__row" : ""];
     }
   },
   methods: {
@@ -46,9 +51,15 @@ export default Vue.extend({
       const { propsData = {} } = options;
       options.propsData = { ...propsData, fixed };
     });
+
+    // @ts-ignore
+    const table = this.table;
+    const elementTag = table.isVirtualized ? "div" : "tr";
+
     return h(
-      "tr",
+      elementTag,
       {
+        class: this.classes,
         on: {
           ...this.$listeners,
           "&click": this.handleClick // & = passive modifier
